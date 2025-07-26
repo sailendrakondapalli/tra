@@ -92,6 +92,7 @@ class Body extends React.Component {
 
     return (
       <div>
+       <p>Are You Admin? <a href="/login">Login As Admin</a></p>
         <div className="all">
           {images.map((item, index) => (
             <Link
@@ -135,7 +136,7 @@ class Body extends React.Component {
               No products found for your city ({userCity})
             </p>
           )}
-            <p>Are You Admin? <a href="/adminlogin">Login As Admin</a></p>
+           
         </div>
 
         {visibleProducts < filteredProducts.length && (
