@@ -135,6 +135,7 @@ class Body extends React.Component {
               No products found for your city ({userCity})
             </p>
           )}
+            <p>Are You Admin? <a href="/adminlogin">Login As Admin</a></p>
         </div>
 
         {visibleProducts < filteredProducts.length && (
